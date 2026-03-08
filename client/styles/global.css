@@ -3,15 +3,15 @@
 @tailwind utilities;
 
 html, body {
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
-  background: linear-gradient(to bottom right, #4f46e5, #9333ea, #ec4899);
-  background-attachment: fixed;
+  margin: 0 !important;
+  padding: 0 !important;
+  min-height: 100vh !important;
+  background: linear-gradient(to bottom right, #4f46e5, #9333ea, #ec4899) !important;
+  background-attachment: fixed !important;
 }
 
 #__next {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  min-height: 100vh !important;
+  display: flex !important;
+  flex-direction: column !important;
 }
